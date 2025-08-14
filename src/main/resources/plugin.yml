@@ -1,0 +1,15 @@
+name: PersonalLoot
+version: '${project.version}'
+main: com.gogless.personalloot.PersonalLoot
+api-version: '1.21'
+author: Gogless
+description: Provides instanced loot for each player in naturally generated chests.
+commands:
+  personalchests:
+    description: Manages the PersonalLoot plugin.
+    usage: /<command> refill
+    permission: personalloot.refill
+permissions:
+  personalloot.refill:
+    description: Allows refilling all loot containers.
+    default: op
